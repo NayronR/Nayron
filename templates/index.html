@@ -1,0 +1,645 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>GRUPO ASSIS FORTES</title>
+  <meta name="title" content="Servi-San">
+  <meta name="description" content="This is a cryptocurrency wallet html template made by codewithsadee.">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon-32x32.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  
+
+
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="{% static 'images/anuncio.jpg' %}">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="{% static 'images/Aguia 3.png' %}" width="100" height="31" alt="SERVISAN">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="#" class="logo">
+            <img src="{% static 'images/Aguia 3.png' %}" width="150" height="31" alt="ASSISFORTES">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="{% url 'index' %}" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Serviços</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Soluções</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Portal Colaborador</a>
+          </li>
+
+          <li>
+            
+            <a href="#" class="navbar-link">Fale Conosco</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="btn-group">
+        <a href="#" class="btn ghost-btn">Pesquisa</a>
+
+        <a href="#" class="btn btn-primary">Contato</a>
+      </div>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+
+<!--CAROUSEL BOOSTRAP-->
+
+
+
+  
+
+      <!----#HERO   -->
+
+      <section class="hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Agilidade  Segurança & Monitoramento</h1>
+
+            <p class="hero-text">
+              Destacando-se nos cenários regional e nacional pela eficiência de seus serviços prestados há mais de 5 décadas.
+            </p>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Fale Conosco</a>
+
+              <a href="#" class="play-btn">
+                <div class="icon">
+                  <ion-icon name="play" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">Conheça a Servi-San</span>
+              </a>
+            </div>
+
+          </div>
+
+          <div class="hero-banner">
+            <figure class="hero-banner">
+              <img src="{% static 'images/imgteste2semfundo.png' %}" width="700" height="" alt="hero banner" class="w-100">
+            </figure>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROMO
+      -->
+
+      <section class="section promo" aria-label="promo">
+        <div class="container">
+
+          <h2 class="h2 section-title text-center">Quem Somos ? </h2>
+
+          <p class="section-text text-center">
+            A SERVI-SAN LTDA, empresa mãe do Grupo empresarial hoje constituído de cinco empresas, teve início em 1968. Por força de lei, em 1971 foi cindida para o surgimento da SERVI-SAN Vigilância e Transporte de Valores Ltda. Ao longo de meio século de existência, as empresas SERVI-SAN, pertencentes ao Grupo Assis Fortes, consolidaram uma marca de respeito perante sua clientela, cumprindo com rigor suas obrigações, sempre pautadas na idoneidade, transparência e capacidade técnica, firmando-se como pioneira e líder de mercado no seu segmento.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="promo-card bg-gray">
+
+                <div class="card-icon">
+                  <ion-icon name="share-social-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Elaboração da Proposta</h3>
+
+                <p class="card-text">
+                  Peça uma proposta comercial ou saiba mais sobre nossos serviços entrando em contato conosco. 
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Saiba mais </span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="promo-card bg-gray">
+
+                <div class="card-icon">
+                  <ion-icon name="pricetags-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Solicite uma proposta</h3>
+
+                <p class="card-text">
+                 
+                  Peça uma proposta comercial ou saiba mais sobre nossos serviços entrando em contato conosco.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Entrar em Contato.</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="promo-card bg-gray">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">O Contrato</h3>
+
+                <p class="card-text">
+                  O contrato é elaborado pela SERVI-SAN ou pelo cliente para que assim seja formalizada a prestação do serviço.  
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Explore More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="stats" aria-label="statistics">
+        <div class="container">
+
+          <div class="stats-content">
+
+            <h2 class="h2 section-title">Por que contratar a SERVI-SAN? </h2>
+
+            <p class="section-text1">
+              Empresa atuante nas áreas de limpeza/conservação e prestação de serviço de vigilância e segurança armada e desarmada, destacando-se nos cenários regional e nacional pela eficiência de seus serviços prestados há mais de 5 décadas, durante as quais vem acumulando experiências e pioneirismos.
+            </p>
+
+            <p class="section-text1">
+              Sua marca hoje é conhecida no País, tendo adquirida atributos de confiança, qualidade dos serviços prestados, segurança e credibilidade.
+            </p>
+
+            <ul class="stats-list">
+
+              <li>
+                <div class="stats-card bg-gray">
+                  <img src= "{% static 'images/mapapiauí.png' %}" width="700" height="" alt="hero banner" class="w-100">
+                          
+                  <h3 class="h3 card-title">
+                   
+                  </h3>
+
+                  <p class="card-text"> 
+                     
+                  </p> 
+ 
+                </div>
+              </li>
+
+              <li>
+                <div class="stats-card bg-gray">
+                  <img src="{% static 'images/mapa nacional.png' %}" width="700" height="" alt="hero banner" class="w-100">
+
+                  <h3 class="h3 card-title"></h3>
+                    
+
+                  <p class="card-text">
+                    
+                  </p>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="stats-card bg-gray">
+                  <img src="{% static 'images/50 anos servi san.png' %}" width="700" height="" alt="hero banner" class="w-100">
+
+                  <h3 class="h3 card-title"></h3>
+
+                  <p class="card-text">
+                    
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <figure class="stats-banner">
+            <img src="{% static 'images/map.png' %}" width="797" height="454" alt="map" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #MARKET
+      -->
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta bg-gray" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title text-center">Soluções Diferenciais</h2>
+
+          <p class="section-text text-center">
+            
+            Entre em contato conosco e diga qual o seu problema e como gostaria que procede-se essa solução.
+          </p>
+
+          <a href="#" class="btn btn-primary">
+            <span class="span">Fale conosco! </span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #INSTRUCTION
+      -->
+
+      <section class="section instruction" aria-label="instruction">
+        <div class="container">
+
+          <h2 class="h2 section-title text-center">NOSSOS SERVIÇOS</h2>
+
+          <p class="section-text text-center">
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+            some form,
+            by injected
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="instruction-card bg-gray">
+
+                <div class="card-icon">
+                  <img src="" width="110" height="180" loading="lazy" alt="icon">
+                </div>
+
+                <p class="card-text">
+                  In publishing and graphic design, Lorem used to demonstrate the visual form of relying on meaningful
+                  content.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="instruction-card bg-gray">
+
+                <div class="card-icon">
+                  <img src="" width="20" height="20" loading="lazy" alt="icon">
+                </div>
+
+                <p class="card-text">
+                  In publishing and graphic design, Lorem used to demonstrate the visual form of relying on meaningful
+                  content.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="instruction-card bg-gray">
+
+                <div class="card-icon">
+                  <img src="" width="20" height="20" loading="lazy" alt="icon">
+                </div>
+
+                <p class="card-text">
+                  In publishing and graphic design, Lorem used to demonstrate the visual form of relying on meaningful
+                  content.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="instruction-card bg-gray">
+
+                <div class="card-icon">
+                  <img src="" width="20" height="20" loading="lazy" alt="icon">
+                </div>
+
+                <p class="card-text">
+                  In publishing and graphic design, Lorem used to demonstrate the visual form of relying on meaningful
+                  content.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #APP
+      -->
+
+      <section class="app" aria-label="app">
+        <div class="container">
+
+          <div class="app-card bg-gray">
+
+            <div class="card-content">
+
+              <h2 class="h2 section-title">FALE COM O NOSSO TIME </h2>
+
+              <p class="section-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eius iusto impedit odit veniam optio cum obcaecati, exercitationem, iure minus itaque, non id perspiciatis ducimus beatae neque atque doloribus a.
+              </p>
+
+              <div class="btn-group">
+
+                <a href="#" class="btn btn-primary">
+                  <ion-icon name="logo-google-playstore" aria-hidden="true"></ion-icon>
+
+                  <div>
+                    <p class="btn-text">Contato</p>
+
+                    <p class="btn-title">OUVIDORIA</p>
+                  </div>
+                </a>
+
+                <a href="#" class="btn btn-primary">
+                  <ion-icon name="logo-apple" aria-hidden="true"></ion-icon>
+
+                  <div>
+                    <p class="btn-text">Fale com o nosso comercial</p>
+
+                    <p class="btn-title">COMERCIAL</p>
+                  </div>
+                </a>
+
+              </div>
+
+            </div>
+
+            <figure class="card-banner">
+              <img src="{% static 'images/missaovisaovalores.png' %}" width="383" height="384" loading="lazy"
+                alt="download banner" class="w-100">
+            </figure>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="{% static 'images/Aguia padrão.png' %}" width="185" height="31" alt="SERVI-SAN">
+          </a>
+
+          <p class="footer-text">
+           Missão
+           Oferecer serviços e soluções eficazes para atender as necessidades de seus clientes, com qualidade e confiabilidade, respeitando sempre os princípios e valores da Empresa, contribuindo para o desenvolvimento socialmente responsável.
+           <p>
+            Visão
+            Ser reconhecida nacionalmente como uma Empresa que "faz bem feito", com qualidade na prestação de serviços, credibilidade e satisfação dos clientes.
+
+          
+           </p>
+          </p>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="footer-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Serviços</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Soluções</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Portal Colaborador</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Fale Conosco</a>
+          </li>
+
+        </ul>
+
+        <div class="social-wrapper">
+
+          <p class="h3 social-list-title">Redes Sociais</p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-dribbble"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-behance"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          Todos os Direitos Reservados
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Suporte</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Politicas de Privacidade</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="{% static 'js/script.js' %}" defer></script>
+
+  <!-- 
+    - ionicon-link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
